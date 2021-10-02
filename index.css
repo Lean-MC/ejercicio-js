@@ -1,0 +1,66 @@
+body{
+    background: #c33764; 
+    background: -webkit-linear-gradient(to right, #c33764, #1d2671); 
+    background: linear-gradient(to right, #c33764, #1d2671); 
+     }
+/*******/
+
+.form-contacto h1{
+    text-align: left;
+    color: cornsilk;
+}
+.borde{
+    width: 100px;
+    height: 10px;
+    background:transparent;
+    margin: 40px auto;
+}
+.form-contacto{
+    max-width: 600px;
+    margin:auto;
+    padding: 0 10px;
+    overflow:hidden ;
+    padding-top:150px;
+    padding-bottom: 150px;
+}
+.texto-formulario{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    border: 0;
+    background:cornsilk;
+    padding: 20px 40px;
+    color: blueviolet;
+    transition: 0.5s;
+}
+.texto-formulario:hover{
+    box-shadow: 0 0 10px 4px #2980b9;
+}
+textarea.texto-formulario{
+resize: none;
+height: 120px;
+color: blueviolet;
+font-size: 15px;
+}
+
+.formulario-btn{
+    float: right;
+    border: 0;
+    background:cornsilk;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.formulario-btn:hover{
+    background: #2980b9;
+}
+
+table{
+    background-color: aliceblue;
+    
+}
+th,td{
+    border: solid 1px black;
+}
